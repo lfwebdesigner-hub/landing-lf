@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>LF · Web Designer</title>
+<meta name="description" content="Sites e landing pages que prendem a atenção e transformam visitas em clientes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;600;800&display=swap">
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="bar"><div class="progress"></div><div class="wrap nav">
+  <nav>
+    <a href="#trabalhos" class="btn btn--solid skew"><span class="unskew">Exemplo</span></a>
+    <a href="#sobre" class="btn btn--solid skew"><span class="unskew">Sobre</span></a>
+    <a href="#metricas" class="btn btn--solid skew"><span class="unskew">Métricas</span></a>
+    <a href="#contato" class="btn btn--solid skew"><span class="unskew">Contato</span></a>
+  </nav></div></header>
+
+<main>
+  <section class="wrap hero">
+    <div>
+      <p class="eyebrow">Web designer</p>
+      <h1 class="display skew8">Design com<br>atitude.</h1>
+      <p class="lead">Sou Lucas. Crio sites e landing pages que prendem a atenção e transformam visitas em clientes.</p>
+      <div class="hero__cta"><a href="#trabalhos" class="btn btn--solid btn--lg skew"><span class="unskew">Explorar</span></a><a href="#contato" class="link-arrow">Falar comigo →</a></div>
+    </div>
+    <img class="hero__logo" src="images/logo.png" alt="Logo LF" width="1080" height="1080">
+  </section>
+
+  <div class="marquee"><div class="skew8c"><div class="marquee__track"><span>Web design ★ Landing pages ★ Identidade visual ★ UI/UX ★ Front-end ★ </span><span aria-hidden="true">Web design ★ Landing pages ★ Identidade visual ★ UI/UX ★ Front-end ★ </span></div></div></div>
+
+  <!-- ANTES & DEPOIS -->
+  <section id="trabalhos" class="wrap section">
+    <p class="eyebrow"> Sua Empresa · Exemplo</p>
+    <h2 class="display skew8">Antes <span class="mute">&amp;</span> depois</h2>
+
+    <div class="ba" id="ba">
+      <div class="ba__after">
+        <div class="mini-nav"><span class="mini-logo skew"><span class="unskew">Sua Empresa</span></span><span class="mini-links"><span>Início</span><span>Serviços</span><span>Contato</span></span></div>
+        <div class="ba__title display skew8">Bem-vindo ao Futuro</div>
+        <p class="ba__text">Somos uma empresa com mais de 10 anos no mercado. Clique abaixo para saber mais.</p>
+        <span class="btn btn--solid btn--sm skew"><span class="unskew">Saiba mais</span></span>
+        <div class="star" style="right:90px;bottom:36px;width:170px;height:170px"></div>
+        <div class="ba__cards"><div class="mini-card skew6"><span class="unskew6">Serviço 1</span></div><div class="mini-card skew6"><span class="unskew6">Serviço 2</span></div></div>
+      </div>
+
+      <div class="ba__before" aria-hidden="true">
+        <div class="old-bar"><b>Sua empresa</b><span>Início | Serviços | Contato</span></div>
+        <div class="old-title">Bem-vindo ao Futuro!!!</div>
+        <p class="old-text">Somos uma empresa com mais de 10 anos no mercado. Clique abaixo para saber mais.</p>
+        <div class="old-boxes"><div>Serviço 1</div><div>Serviço 2</div></div>
+        <div class="old-btn-wrap"><span class="old-btn">Saiba mais</span></div>
+      </div>
+
+      <div class="ba__line"></div>
+      <div class="ba__handle"><svg width="36" height="24" viewBox="0 0 36 24" fill="none" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4 4 12l8 8M24 4l8 8-8 8"/></svg></div>
+      <span class="ba__tag ba__tag--l">ANTES</span>
+      <span class="ba__tag ba__tag--r">DEPOIS</span>
+      <span class="ba__hint">← Arraste →</span>
+      <input class="ba__range" type="range" min="0" max="100" value="50" aria-label="Arraste para comparar o antes e o depois">
+    </div>
+
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="wrap about">
+    <div class="about__photo">
+      <div class="frame skew6"><div class="unskew6 frame__in"><span class="label">[SUA FOTO]</span></div></div>
+      <div class="star" style="right:-36px;bottom:-36px;width:150px;height:150px"></div>
+    </div>
+    <div>
+      <p class="eyebrow">Sobre mim</p>
+      <h2 class="display skew8">Prazer,<br>[seu nome].</h2>
+      <p class="body">[Parágrafo 1: quem você é, há quanto tempo trabalha com web design e o que te move.]</p>
+      <p class="body">[Parágrafo 2: como você trabalha, o tipo de cliente que atende e o que ele ganha ao fechar com você.]</p>
+      <div class="pills">
+        <span class="pill skew"><span class="unskew">UI/UX</span></span>
+        <span class="pill skew"><span class="unskew">Front-end</span></span>
+        <span class="pill skew"><span class="unskew">Identidade visual</span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- MÉTRICAS (Instagram) -->
+  <section id="metricas" class="metrics">
+    <div class="wrap">
+      <p class="eyebrow live"><span class="dot"></span><span id="ig-status">Instagram</span></p>
+      <h2 class="display skew8">Meus números</h2>
+      <div class="grid4">
+        <div class="stat skew6"><div class="unskew6"><div class="num num--lg" data-metric="followers">[00,0K]</div><div class="label">SEGUIDORES</div></div></div>
+        <div class="stat skew6"><div class="unskew6"><div class="num num--lg" data-metric="reach">[000K]</div><div class="label">ALCANCE · 30 DIAS</div></div></div>
+        <div class="stat skew6"><div class="unskew6"><div class="num num--lg" data-metric="engagement">[0,0%]</div><div class="label">ENGAJAMENTO</div></div></div>
+        <div class="stat skew6"><div class="unskew6"><div class="num num--lg" data-metric="posts">[000]</div><div class="label">POSTS</div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="marquee marquee--out" aria-hidden="true"><div class="skew8c"><div class="marquee__track marquee__track--rev"><span>Design com atitude ★ Sites que vendem ★ Seu próximo cliente começa aqui ★ </span><span>Design com atitude ★ Sites que vendem ★ Seu próximo cliente começa aqui ★ </span></div></div></div>
+
+  <!-- CONTATO -->
+  <section id="contato" class="wrap cta">
+    <h2 class="display skew8 cta__title">Vamos criar<br>algo forte?</h2>
+    <p class="lead">Conte sobre seu projeto e eu respondo em até 30 minutos.</p>
+    <div class="cta__btns"><a href="https://wa.me/5511978508937" class="btn btn--solid btn--lg skew cta__btn"><span class="unskew"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21l1.6-4.8A9 9 0 1 1 8 19.4z"/><path d="M9 8.5c0 3.6 2.9 6.5 6.5 6.5l1.2-1.6-2.1-1-.9.8c-1-.4-1.9-1.3-2.3-2.3l.8-.9-1-2.1z"/></svg>WhatsApp</span></a><a href="mailto:lfwebdesigner.contato@gmail.com" class="btn btn--solid btn--lg skew cta__btn"><span class="unskew"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 6.5 12 13l8.5-6.5"/></svg>Gmail</span></a><a href="https://ig.me/m/lf.webdesigner" class="btn btn--solid btn--lg skew cta__btn"><span class="unskew"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".6" fill="currentColor"/></svg>Direct</span></a></div>
+  </section>
+</main>
+
+<footer class="wrap footer">
+  <span>© 2026 LF · Web Designer</span>
+  <span><a href="#">Instagram</a> · <a href="#">Behance</a> · <a href="#">LinkedIn</a></span>
+</footer>
+
+</body>
+</html>
